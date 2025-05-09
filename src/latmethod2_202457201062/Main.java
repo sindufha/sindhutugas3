@@ -9,6 +9,15 @@ void kalkulator(String operasi, double bil1, double bil2) {
             case "penjumlahan":
                 hasil = bil1 + bil2;
                 break;
+            case "pengurangan":
+                hasil = bil1 - bil2;
+                break;
+            case "perkalian":
+                hasil = bil1 * bil2;
+                break;
+            case "pembagian":
+                hasil = bil1 / bil2;
+                break;
             default:
                 hasil = 0;
         }
@@ -20,7 +29,7 @@ void kalkulator(String operasi, double bil1, double bil2) {
     public static void main(String[] args) {
         // TODO code application logic here
         Main lm = new Main();
-        lm.kalkulator("penjumlahan", 3, 5);
+        lm.kalkulator("pembagian", 3, 0);
  
         
     
